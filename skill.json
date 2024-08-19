@@ -1,1 +1,16 @@
-
+{
+    "manifest": {
+      "version": "1.0",
+      "apis": {
+        "custom": {
+          "endpoint": {
+            "uri": "arn:aws:lambda:REGION:ACCOUNT_ID:function:FUNCTION_NAME"
+          }
+        }
+      },
+      "privacyAndCompliance": {
+        "usesPersonalData": false
+      }
+    }
+  }
+  
